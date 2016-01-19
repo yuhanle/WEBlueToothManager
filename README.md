@@ -53,6 +53,7 @@
   以上就是这个Demo的设计思路，当然Demo中仍有很多不足，之所以不敢称之为kit，是因为它确实没有达到kit的封装能力与效果，毕竟这只是一个Demo，他只是简单体现了一个设计思路，并不能达到通用的效果，因为在智能硬件这一块，每个产品的协议，属性都会有所差异，不可能做到通用的效果。希望和大家有更深入的交流与学习！
 
   最后回顾一下上篇文章的地址：[iOS-BLE蓝牙开发持续更新](http://www.jianshu.com/p/84b5b834b942)
+  
   以及这个说了很久的Demo地址：[一个iOS BLE蓝牙学习的Demo](https://github.com/yuhanle/WEBlueToothManager)
 
 
