@@ -47,7 +47,9 @@
 ![Paste_Image.png](http://upload-images.jianshu.io/upload_images/545755-01aabb5e39a0a750.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
   图中的连线很多，可能很迷糊，同一种颜色的连线代表数据交互，看helper里关心的设备，可以明显理解，只有关心这个设备才会收到这个设备的信息。
-![Paste_Image.png](http://upload-images.jianshu.io/upload_images/545755-cfc6b1cdec3ccd84.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+  
+  每一个viewController维护一个helper，通过NSNotificationCenter广播所有操作的结果，并告知每一个关心这个设备的viewController。
+  
   简言之，就是监护人接不接受这个通知，或者老师发不发送这个消息给监护人。有一点需要明白的是，不管监护人想不想收到这个设备的消息，这个设备都是会广播自己的信息的，只是helper会判断这个孩子是不是你的~
 
   以上就是这个Demo的设计思路，当然Demo中仍有很多不足，之所以不敢称之为kit，是因为它确实没有达到kit的封装能力与效果，毕竟这只是一个Demo，他只是简单体现了一个设计思路，并不能达到通用的效果，因为在智能硬件这一块，每个产品的协议，属性都会有所差异，不可能做到通用的效果。希望和大家有更深入的交流与学习！
