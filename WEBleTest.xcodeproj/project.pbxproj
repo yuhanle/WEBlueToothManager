@@ -7,9 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FE3EF90E1C4E15F800581B56 /* WEBLEMyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE3EF90D1C4E15F800581B56 /* WEBLEMyViewController.m */; };
+		FE3EF9111C4E162200581B56 /* JSONKit.m in Sources */ = {isa = PBXBuildFile; fileRef = FE3EF9101C4E162200581B56 /* JSONKit.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		FE3EF9161C4E173400581B56 /* WEBLESearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE3EF9131C4E173400581B56 /* WEBLESearchViewController.m */; };
+		FE3EF9171C4E173400581B56 /* WEBLEMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE3EF9151C4E173400581B56 /* WEBLEMainViewController.m */; };
 		FE852BEE1B9FE60B00B46AA2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FE852BED1B9FE60B00B46AA2 /* main.m */; };
 		FE852BF11B9FE60B00B46AA2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FE852BF01B9FE60B00B46AA2 /* AppDelegate.m */; };
-		FE852BF41B9FE60B00B46AA2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE852BF31B9FE60B00B46AA2 /* ViewController.m */; };
 		FE852BF71B9FE60B00B46AA2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE852BF51B9FE60B00B46AA2 /* Main.storyboard */; };
 		FE852BF91B9FE60B00B46AA2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE852BF81B9FE60B00B46AA2 /* Images.xcassets */; };
 		FE852BFC1B9FE60B00B46AA2 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FE852BFA1B9FE60B00B46AA2 /* LaunchScreen.xib */; };
@@ -33,13 +36,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FE3EF90C1C4E15F800581B56 /* WEBLEMyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WEBLEMyViewController.h; sourceTree = "<group>"; };
+		FE3EF90D1C4E15F800581B56 /* WEBLEMyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WEBLEMyViewController.m; sourceTree = "<group>"; };
+		FE3EF90F1C4E162200581B56 /* JSONKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONKit.h; sourceTree = "<group>"; };
+		FE3EF9101C4E162200581B56 /* JSONKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONKit.m; sourceTree = "<group>"; };
+		FE3EF9121C4E173400581B56 /* WEBLESearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WEBLESearchViewController.h; sourceTree = "<group>"; };
+		FE3EF9131C4E173400581B56 /* WEBLESearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WEBLESearchViewController.m; sourceTree = "<group>"; };
+		FE3EF9141C4E173400581B56 /* WEBLEMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WEBLEMainViewController.h; sourceTree = "<group>"; };
+		FE3EF9151C4E173400581B56 /* WEBLEMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WEBLEMainViewController.m; sourceTree = "<group>"; };
 		FE852BE81B9FE60B00B46AA2 /* WEBleTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WEBleTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE852BEC1B9FE60B00B46AA2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FE852BED1B9FE60B00B46AA2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		FE852BEF1B9FE60B00B46AA2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		FE852BF01B9FE60B00B46AA2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		FE852BF21B9FE60B00B46AA2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		FE852BF31B9FE60B00B46AA2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		FE852BF61B9FE60B00B46AA2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FE852BF81B9FE60B00B46AA2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		FE852BFB1B9FE60B00B46AA2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -103,8 +112,12 @@
 				FE852C111B9FEFC900B46AA2 /* BlueToothManager */,
 				FE852BEF1B9FE60B00B46AA2 /* AppDelegate.h */,
 				FE852BF01B9FE60B00B46AA2 /* AppDelegate.m */,
-				FE852BF21B9FE60B00B46AA2 /* ViewController.h */,
-				FE852BF31B9FE60B00B46AA2 /* ViewController.m */,
+				FE3EF90C1C4E15F800581B56 /* WEBLEMyViewController.h */,
+				FE3EF90D1C4E15F800581B56 /* WEBLEMyViewController.m */,
+				FE3EF9121C4E173400581B56 /* WEBLESearchViewController.h */,
+				FE3EF9131C4E173400581B56 /* WEBLESearchViewController.m */,
+				FE3EF9141C4E173400581B56 /* WEBLEMainViewController.h */,
+				FE3EF9151C4E173400581B56 /* WEBLEMainViewController.m */,
 				FE852BF51B9FE60B00B46AA2 /* Main.storyboard */,
 				FE852BF81B9FE60B00B46AA2 /* Images.xcassets */,
 				FE852BFA1B9FE60B00B46AA2 /* LaunchScreen.xib */,
@@ -116,6 +129,8 @@
 		FE852BEB1B9FE60B00B46AA2 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				FE3EF90F1C4E162200581B56 /* JSONKit.h */,
+				FE3EF9101C4E162200581B56 /* JSONKit.m */,
 				FE852BEC1B9FE60B00B46AA2 /* Info.plist */,
 				FE852BED1B9FE60B00B46AA2 /* main.m */,
 			);
@@ -261,13 +276,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				FE852C211B9FEFC900B46AA2 /* QWSBleHandler.m in Sources */,
-				FE852BF41B9FE60B00B46AA2 /* ViewController.m in Sources */,
+				FE3EF9111C4E162200581B56 /* JSONKit.m in Sources */,
 				FE852C201B9FEFC900B46AA2 /* QWSBleDeviceState.m in Sources */,
+				FE3EF9161C4E173400581B56 /* WEBLESearchViewController.m in Sources */,
 				FE852C241B9FEFC900B46AA2 /* QWSDiscovery.m in Sources */,
 				FE852BF11B9FE60B00B46AA2 /* AppDelegate.m in Sources */,
+				FE3EF90E1C4E15F800581B56 /* WEBLEMyViewController.m in Sources */,
 				FE852BEE1B9FE60B00B46AA2 /* main.m in Sources */,
 				FE852C231B9FEFC900B46AA2 /* QWSDevControlService.m in Sources */,
 				FE852C221B9FEFC900B46AA2 /* QWSBleHelper.m in Sources */,
+				FE3EF9171C4E173400581B56 /* WEBLEMainViewController.m in Sources */,
 				FE852C1F1B9FEFC900B46AA2 /* CBUUID+StringExtraction.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

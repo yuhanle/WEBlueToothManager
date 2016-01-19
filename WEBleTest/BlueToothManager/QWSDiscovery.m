@@ -2,24 +2,24 @@
 //  QWSDevControlService.h
 //  WEBluetooth
 //
-//  Created by Tilink on 15/7/23.
-//  Copyright (c) 2015年 Tilink. All rights reserved.
+//  Created by yuhanle on 15/7/23.
+//  Copyright (c) 2015年 yuhanle. All rights reserved.
 //
 
 #import "QWSDiscovery.h"
 
-NSString * ACTION_GATT_CONNECTED           = @"com.tilink.qws.ble.ACTION_GATT_CONNECTED";
-NSString * ACTION_GATT_DISCONNECTED        = @"com.tilink.qws.ble.ACTION_GATT_DISCONNECTED";
-NSString * ACTION_GATT_SERVICES_DISCOVERED = @"com.tilink.qws.ble.ACTION_GATT_SERVICES_DISCOVERED";
-NSString * ACTION_DATA_AVAILABLE           = @"com.tilink.qws.ble.ACTION_DATA_AVAILABLE";
-NSString * ACTION_READ_RSSI                = @"com.tilink.qws.ble.ACTION_READ_RSSI";
-NSString * ACTION_BLE_ERROR                = @"com.tilink.qws.ble.ACTION_BLE_ERROR";
-NSString * ACTION_BLE_STATECHANGE          = @"com.tilink.qws.ble.ACTION_BLE_STATECHANGE";
-NSString * EXTRA_DATA                      = @"com.tilink.qws.ble.EXTRA_DATA";
-NSString * EXTRA_ADDRESS                   = @"com.tilink.qws.ble.EXTRA_ADDRESS";
-NSString * EXTRA_ERROR_REASON              = @"com.tilink.qws.ble.EXTRA_ERROR_REASON";
-NSString * EXTRA_CHAR                      = @"com.tilink.qws.ble.EXTRA_CHAR";
-NSString * EXTRA_STATUS                    = @"com.tilink.qws.ble.EXTRA_STATUS";
+NSString * ACTION_GATT_CONNECTED           = @"com.yuhanle.qws.ble.ACTION_GATT_CONNECTED";
+NSString * ACTION_GATT_DISCONNECTED        = @"com.yuhanle.qws.ble.ACTION_GATT_DISCONNECTED";
+NSString * ACTION_GATT_SERVICES_DISCOVERED = @"com.yuhanle.qws.ble.ACTION_GATT_SERVICES_DISCOVERED";
+NSString * ACTION_DATA_AVAILABLE           = @"com.yuhanle.qws.ble.ACTION_DATA_AVAILABLE";
+NSString * ACTION_READ_RSSI                = @"com.yuhanle.qws.ble.ACTION_READ_RSSI";
+NSString * ACTION_BLE_ERROR                = @"com.yuhanle.qws.ble.ACTION_BLE_ERROR";
+NSString * ACTION_BLE_STATECHANGE          = @"com.yuhanle.qws.ble.ACTION_BLE_STATECHANGE";
+NSString * EXTRA_DATA                      = @"com.yuhanle.qws.ble.EXTRA_DATA";
+NSString * EXTRA_ADDRESS                   = @"com.yuhanle.qws.ble.EXTRA_ADDRESS";
+NSString * EXTRA_ERROR_REASON              = @"com.yuhanle.qws.ble.EXTRA_ERROR_REASON";
+NSString * EXTRA_CHAR                      = @"com.yuhanle.qws.ble.EXTRA_CHAR";
+NSString * EXTRA_STATUS                    = @"com.yuhanle.qws.ble.EXTRA_STATUS";
 
 int ERROR_REASON_UNKNOWN              = 999;
 int ERROR_REASON_WRITE_CHARACTERISTIC = 1000;

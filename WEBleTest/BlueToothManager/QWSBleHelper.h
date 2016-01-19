@@ -2,9 +2,10 @@
 //  QWSBleHelper.h
 //  B100
 //
-//  Created by Tilink on 15/8/6.
-//  Copyright (c) 2015年 Tilink. All rights reserved.
+//  Created by yuhanle on 15/8/6.
+//  Copyright (c) 2015年 yuhanle. All rights reserved.
 //
+//  每个VC维护一个helper
 
 #import <Foundation/Foundation.h>
 #import "QWSBleHandler.h"
