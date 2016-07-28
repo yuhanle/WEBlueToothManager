@@ -10,6 +10,11 @@
 
 @interface CBUUID (StringExtraction)
 
+/**
+ *  蓝牙UUID to String
+ *
+ *  @return UUIDString
+ */
 - (NSString *)representativeString;
 
 @end

@@ -103,6 +103,6 @@
 
 @interface QWSBleHandler : NSObject
 
-@property (assign, nonatomic) id <QWSBleHandlerDelegate> delegate;
+@property (weak, nonatomic) id <QWSBleHandlerDelegate> delegate;
 
 @end
