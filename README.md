@@ -59,6 +59,6 @@
   以及这个说了很久的Demo地址：[一个iOS BLE蓝牙学习的Demo](https://github.com/yuhanle/WEBlueToothManager)
 
 
-###ps：
+### 附言：
   在这里也顺便介绍一下近期看到的一篇关于BLE开发的kit([MPBluetoothKit iOS蓝牙框架](http://macpu.github.io/2015/11/04/MPBluetoothKit-iOS%E8%93%9D%E7%89%99%E6%A1%86%E6%9E%B6/))，作者很详细的将系统的CoreBluetooth的代理都用block实现了，看起来更加清晰与实用，也希望各位能够多多关注，共同学习。
 
