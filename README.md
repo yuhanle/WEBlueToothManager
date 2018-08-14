@@ -2,7 +2,11 @@
 
 一个关于蓝牙4.0的智能硬件Demo详解
 
->  写这篇详解是因为最近很多人都在问相关问题，但是上篇文章[iOS-BLE蓝牙开发持续更新](http://blog.yuhanle.com/2015/06/24/ble-development-continuously-update/)已经过去半年，很多东西已经开始遗忘，今天重新拾起，并在Demo中新添了具体功能和详细注释，顺便屡一下当初设计的思路，我想用图片来解释会更好理解。
+> 写这篇详解是因为最近很多人都在问相关问题，但是上篇文章[iOS-BLE蓝牙开发持续更新](http://blog.yuhanle.com/2015/06/24/ble-development-continuously-update/)已经过去半年，很多东西已经开始遗忘，今天重新拾起，并在Demo中新添了具体功能和详细注释，顺便屡一下当初设计的思路，我想用图片来解释会更好理解。
+
+> 传送门：[OKBluetooth](https://github.com/latehorse/OKBluetooth) 
+> 
+> Bluetooth library using ReactiveCocoa on ios.
 
   首先看一下几个文件的大概功能，后面在用图来分析其中的设计理念。
 #### 文件目录
